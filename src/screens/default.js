@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import kanyeoutline from "../img/kanyeoutline.png"
 import kanyesuprise from "../img/kanyesuprise.png"
 
@@ -13,7 +14,7 @@ class Default extends React.Component{
                         <p className="">Kanye has fell in a pool of coffee beans, and we can't find him. Try and find him before it is too late!</p>
                         <br />
                         <br />
-                        <a className="bg-yellow-800 text-white border-2 rounded border-yellow-800 p-10 py-4 hover:bg-white hover:text-yellow-800 mr-2 pr-4" href="/game">Go<span className="mx-5"></span>→</a>
+                        <Link className="bg-yellow-800 text-white border-2 rounded border-yellow-800 p-10 py-4 hover:bg-white hover:text-yellow-800 mr-2 pr-4" to="/game">Go<span className="mx-5"></span>→</Link>
                     </div>
                     
                 </div>

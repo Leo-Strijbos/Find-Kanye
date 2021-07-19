@@ -29,9 +29,9 @@ class Home extends React.Component{
     render() {  
         return(
             <div class="h-screen w-screen bg-beans">
-                <a href="/win" class="kanyePosition" style={this.state.kanyeStyle}>
+                <Link to="/win" class="kanyePosition" style={this.state.kanyeStyle}>
                     <img src={kanye} alt="" class="h-8 w-8 md:h-12 md:w-12 opacity-90"/>
-                </a>
+                </Link>
             </div>
         )     
     }

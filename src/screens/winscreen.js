@@ -11,8 +11,8 @@ class winScreen extends React.Component{
                         <p className="text-black pb-4">Do you want to play again?</p>
                         <div className="h-6"></div>
                         <div className="inline mt-6">
-                            <a className="bg-green-600 text-white border-2 rounded border-green-600 p-10 py-4 hover:bg-white hover:text-green-600 mr-2" href="/game">Yes</a>
-                            <a className="bg-red-600 text-white border-2 rounded border-red-600 p-10 py-4 hover:bg-white hover:text-red-600" href="/">No</a>
+                            <Link className="bg-green-600 text-white border-2 rounded border-green-600 p-10 py-4 hover:bg-white hover:text-green-600 mr-2" to="/game">Yes</Link>
+                            <Link className="bg-red-600 text-white border-2 rounded border-red-600 p-10 py-4 hover:bg-white hover:text-red-600" to="/">No</Link>
                         </div>
                     </div>
                 </div>
