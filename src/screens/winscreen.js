@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'react-router-dom'
+import { useHistory, Link, Redirect } from "react-router-dom";
 
 
 class winScreen extends React.Component{
