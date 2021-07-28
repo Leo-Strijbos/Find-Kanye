@@ -12,7 +12,7 @@ class Default extends React.Component{
                         <div className="rounded-xl shadow-xl p-10 w-4/5 bg-yellow-50">
                             <p className="font-heading text-5xl">Help us find Kanye!</p>
                             <br />
-                            <p className="">Kanye has fell in a pool of coffee beans, and we can't find him. Try and find him before it is too late!</p>
+                            <p className="">Kanye has fallen in a pool of coffee beans, and we can't find him. Try and find him before it is too late!</p>
                             <br />
                             <br />
                             <Link className="bg-yellow-800 text-white border-2 rounded border-yellow-800 p-10 py-4 hover:bg-white hover:text-yellow-800 mr-2 pr-4" to="/game">Go<span className="mx-5"></span>→</Link>
